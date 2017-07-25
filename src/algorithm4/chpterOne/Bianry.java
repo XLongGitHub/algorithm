@@ -40,7 +40,7 @@ public class Bianry {
 	}
 	
 	public static void main(String[] args) {
-		int[] whitelist = In.readInts("tinyT.txt");
+		int[] whitelist = In.readInts("algorithm4/tinyT.txt");
 		Counter cnt = new Counter("cnt");
 		
 		for (Integer i: whitelist) 
