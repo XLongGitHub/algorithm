@@ -1,4 +1,6 @@
-package chpterOne;
+package algorithm4.chpterOne;
+
+
 
 public class Accmulator {
 	private double m;

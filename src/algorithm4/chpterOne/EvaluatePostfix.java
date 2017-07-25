@@ -1,4 +1,4 @@
-package chpterOne;
+package algorithm4.chpterOne;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,7 +17,7 @@ public class EvaluatePostfix {
 		for (String s : str)
 			StdOut.print(s);
 		StdOut.println();
-		Stack<String> oper = new Stack<String>(); //存放操作符
+		Stack<String> oper = new Stack<String>(); //存放操作�?
 		List<String> list = new ArrayList<String>(); //存放数据
 		
 		for (int i=0; i<str.length; i++) {

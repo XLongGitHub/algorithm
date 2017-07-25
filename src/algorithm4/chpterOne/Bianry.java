@@ -1,10 +1,12 @@
-package chpterOne;
+package algorithm4.chpterOne;
 
-import java.util.Arrays;
 import edu.princeton.cs.algs4.Counter;
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
+
+import java.util.Arrays;
+
 /**
  * 二分查找，白名单
  * @author Xulong
@@ -23,7 +25,7 @@ public class Bianry {
 		}
 		return -1;
 	}
-	//记录查找的次数
+	//记录查找的次�?
 	public static int rank(int key, int[] a, Counter c) {
 		int lo = 0; 
 		int hi = a.length - 1;

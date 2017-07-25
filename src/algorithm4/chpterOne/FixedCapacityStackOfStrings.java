@@ -1,4 +1,4 @@
-package chpterOne;
+package algorithm4.chpterOne;
 
 public class FixedCapacityStackOfStrings<Item> {
 	/*public static final int N = 100;

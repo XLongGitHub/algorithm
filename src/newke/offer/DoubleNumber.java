@@ -1,17 +1,10 @@
-package newKe;
+package newke.offer;
 
 import java.util.Arrays;
 import java.util.Set;
 import java.util.TreeSet;
 
-class ListNode {
-    int val;
-    ListNode next = null;
 
-    ListNode(int val) {
-        this.val = val;
-    }
-}
 
 public class DoubleNumber {
 	public static void main(String[] args ){
@@ -62,7 +55,7 @@ public class DoubleNumber {
     //    length:      the length of array numbers
     //    duplication: (Output) the duplicated number in the array number,length of duplication array is 1,so using duplication[0] = ? in implementation;
     //                  Here duplication like pointor in C/C++, duplication[0] equal *duplication in C/C++
-    //    ÕâÀïÒªÌØ±ğ×¢Òâ~·µ»ØÈÎÒâÖØ¸´µÄÒ»¸ö£¬¸³Öµduplication[0]
+    //    ï¿½ï¿½ï¿½ï¿½Òªï¿½Ø±ï¿½×¢ï¿½ï¿½~ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø¸ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµduplication[0]
     // Return value:       true if the input is valid, and there are some duplications in the array number
     //                     otherwise false
     public boolean duplicate(int numbers[],int length,int [] duplication) {

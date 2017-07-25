@@ -1,4 +1,4 @@
-package chpterOne;
+package algorithm4.chpterOne;
 
 import edu.princeton.cs.algs4.StdOut;
 

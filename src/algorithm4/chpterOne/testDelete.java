@@ -1,4 +1,4 @@
-package chpterOne.list;
+package algorithm4.chpterOne;
 
 import edu.princeton.cs.algs4.StdOut;
 
@@ -38,7 +38,7 @@ public class testDelete {
 	}
 	
 	/**
-	 * 保存最后一个节点的前一个节点，令其next为null
+	 * 保存�?后一个节点的前一个节点，令其next为null
 	 */
 	public void deleteTail() {
 		Node head = first;
