@@ -43,7 +43,9 @@ Temporary Items
 .apdisk
 .idea/*
 .idea/
-/.classpath
-/.project
-/.settings/
+.classpath
+.project
+.settings/
 out/
+bin/
+src/tmptans/
