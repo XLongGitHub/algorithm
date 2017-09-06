@@ -94,8 +94,4 @@ public class MergeKSortedLists {
         MergeKSortedLists mk = new MergeKSortedLists();
         mk.mergeKLists(lists);
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 32a6093fdb004cbcf84426eeb7c41b9cd5e4d413

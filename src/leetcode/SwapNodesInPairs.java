@@ -68,10 +68,4 @@ public class SwapNodesInPairs {
             tmp = tmp.next;
         }
     }
-<<<<<<< HEAD
 }
-=======
-
-
-}
->>>>>>> 32a6093fdb004cbcf84426eeb7c41b9cd5e4d413
