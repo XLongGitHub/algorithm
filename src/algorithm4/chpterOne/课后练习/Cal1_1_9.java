@@ -1,5 +1,4 @@
-package algorithm4.chpterOne.课后练习;
-/**
+package algorithm4.chpterOne.课后练习; /**
  * Created by Xulong on 2016/11/19.
  */
 import java.util.Scanner;

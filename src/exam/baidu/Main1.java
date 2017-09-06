@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * Created by Xulong on 2017/4/27.
  */
-public class Main1 {
+public class Main {
     public static  void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();

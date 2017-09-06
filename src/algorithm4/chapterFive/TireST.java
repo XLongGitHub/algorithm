@@ -1,7 +1,7 @@
 package algorithm4.chapterFive;
 
 import edu.princeton.cs.algs4.Queue;
-//import newke.Nu;
+import newke.Nu;
 
 public class TireST<Value> {
 	private static int R = 256;		//基数

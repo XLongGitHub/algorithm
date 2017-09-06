@@ -19,7 +19,7 @@ class Node {
         this.z = z;
     }
 }
-public class Main2 {
+public class Main {
     public static int[] xyz;
     public static String[] rgb;
     public static Node[] nodes;
