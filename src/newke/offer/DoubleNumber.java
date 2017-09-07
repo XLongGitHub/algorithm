@@ -4,14 +4,14 @@ import java.util.Arrays;
 import java.util.Set;
 import java.util.TreeSet;
 
-class ListNode {
-    int val;
-    ListNode next = null;
-
-    ListNode(int val) {
-        this.val = val;
-    }
-}
+//class ListNode {
+//    int val;
+//    ListNode next = null;
+//
+//    ListNode(int val) {
+//        this.val = val;
+//    }
+//}
 
 public class DoubleNumber {
 	public static void main(String[] args ){

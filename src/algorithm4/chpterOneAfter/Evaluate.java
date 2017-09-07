@@ -7,7 +7,7 @@ public class Evaluate {
         Stack<Character> os = new Stack<>();
         Stack<Double> vals = new Stack<>();
 
-        String str = "(1 + ( ( 2 + 3 ) * ( 4 * 5) ) )";
+        String str = "(1 + ( (5 + 2 + 3 ) * ( 4 * 5) ) )";
         for (int i = 0; i < str.length(); i++) {
             char tmp = str.charAt(i);
             if (tmp == ' ' || tmp == '(') continue;

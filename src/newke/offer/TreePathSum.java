@@ -10,10 +10,16 @@ import java.util.ArrayList;
  * 路径定义为从树的根结点开始往下一直到叶结点所经过的结点形成一条路径。
  */
 public class TreePathSum {
+    private class Node {
+        int val;
+        Node right;
+        Node left;
+    }
+
 //    java.lang.NullPointerException  为使用new分配空间
     public ArrayList<ArrayList<Integer>> arrayLists = new ArrayList<ArrayList<Integer>>();
     public ArrayList<Integer> list = new ArrayList<Integer>();
-    public ArrayList<ArrayList<Integer>> FindPath(TreeNode root, int target) {
+    public ArrayList<ArrayList<Integer>> FindPath(Node root, int target) {
 //        if (root == null) return null;
 ///*        []*/ 你的输出为: null
         if (root == null) return arrayLists;

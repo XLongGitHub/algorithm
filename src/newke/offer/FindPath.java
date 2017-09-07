@@ -15,7 +15,13 @@ public class FindPath {
     //任一条路径
     private ArrayList<Integer> list = new ArrayList<Integer>();
 
-    public ArrayList<ArrayList<Integer>> FindPath(TreeNode root,int target) {
+    private class Node {
+        int val;
+        Node right;
+        Node left;
+    }
+
+    public ArrayList<ArrayList<Integer>> FindPath(Node root,int target) {
         if(root == null) return listAll;
         list.add(root.val);
         target -= root.val;
