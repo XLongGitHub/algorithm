@@ -28,7 +28,11 @@ public class Merge {
 		merge(a, lo, mid, hi);
 		show(a);
 	}
-	
+
+	/**
+	 * 自底向上
+	 * @param a
+	 */
 	private static void UDsort(Comparable[] a) {
 		int N = a.length;
 		aux = new Comparable[N];
@@ -64,7 +68,7 @@ public class Merge {
 
 	public static void main(String[] args) {
 //		Comparable[] a = {14,12,13,11,10,6,8,7,9,5,4,3,2,1,0};
-		Comparable[] a = {0,3, 2, 4};
+		Comparable[] a = {0,3, 5, 4, 9, 2};
 		//UDsort(a);
 		sort(a);
 		//show(a);
