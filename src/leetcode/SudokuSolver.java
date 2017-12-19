@@ -43,36 +43,6 @@ public class SudokuSolver {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //    public void solveSudoku(char[][] board) {
 //        int idotCount = 0;
 //        for (int row = 0; row < 9; row++) {
